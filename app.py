@@ -29,7 +29,7 @@ def predict():
     output = model.predict(df)
         
     if output == 0:
-        res_val = "** breast cancer **"
+        res_val = "** yes breast cancer **"
     else:
         res_val = "no breast cancer"
         
